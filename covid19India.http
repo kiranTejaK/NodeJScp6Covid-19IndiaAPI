@@ -1,0 +1,12 @@
+PUT http://localhost:3000/districts/3
+
+{
+  "districtName": "Nadia",
+  "stateId": 3,
+  "cases": 9628,
+  "cured": 6524,
+  "active": 3000,
+  "deaths": 104
+}
+###
+GET http://localhost:3000/states/3/stats/
